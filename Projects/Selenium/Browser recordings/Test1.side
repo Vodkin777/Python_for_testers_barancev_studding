@@ -1,0 +1,158 @@
+{
+  "id": "0cf0292c-9cc2-4bc3-bb07-651336253ad3",
+  "version": "2.0",
+  "name": "Test1",
+  "url": "https://www.f1news.ru",
+  "tests": [{
+    "id": "ce1aba6e-4aad-432a-a2cd-92ef4dff1368",
+    "name": "f1news.ru - Test1",
+    "commands": [{
+      "id": "9a55cf64-62b1-4acb-b232-4f003b1c4e01",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a6718f8-90a3-47a4-ad5e-de0d91d67bb3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1500x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22ad97e8-c332-4a7c-a35b-4e148c77f346",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23bcc151-b1d9-4061-adf7-8ff09eb2af0d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=В Honda не считают, что дверь в Формулу 1 закрыта",
+      "targets": [
+        ["linkText=В Honda не считают, что дверь в Формулу 1 закрыта", "linkText"],
+        ["css=.b-news-list__item--with-image:nth-child(1) .b-news-list__title", "css:finder"],
+        ["xpath=//a[contains(text(),'В Honda не считают, что дверь в Формулу 1 закрыта')]", "xpath:link"],
+        ["xpath=//div[@id='cms-block-62d2c21694a083.46370078']/div/div/ul/li/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news/f1-161963.html')]", "xpath:href"],
+        ["xpath=//li/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'В Honda не считают, что дверь в Формулу 1 закрыта')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72c0b873-bab7-409e-b4a0-0015ffa28a77",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,218.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e0e306b-5200-4d8b-9972-2a323ffdab96",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1431.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "871c4896-8957-49ee-8b8c-0831b373e342",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1880)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea9d5086-44bb-4e99-a932-3862f76332bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header_top",
+      "targets": [
+        ["css=.header_top", "css:finder"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b37e704-d222-46b0-a6af-d823e9b87fc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-logo__img",
+      "targets": [
+        ["css=.b-logo__img", "css:finder"],
+        ["xpath=//img[@alt='F1News.ru']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43f8405b-8a4f-4c58-8e6b-f8f773af271b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=В Honda не считают, что дверь в Формулу 1 закрыта",
+      "targets": [
+        ["linkText=В Honda не считают, что дверь в Формулу 1 закрыта", "linkText"],
+        ["css=.b-news-list__item--with-image:nth-child(1) .b-news-list__title", "css:finder"],
+        ["xpath=//a[contains(text(),'В Honda не считают, что дверь в Формулу 1 закрыта')]", "xpath:link"],
+        ["xpath=//div[@id='cms-block-62d2c21694a083.46370078']/div/div/ul/li/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news/f1-161963.html')]", "xpath:href"],
+        ["xpath=//li/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'В Honda не считают, что дверь в Формулу 1 закрыта')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e276b124-8f35-4cd5-a471-08bc788eb7b4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=В Honda не считают, что дверь в Формулу 1 закрыта",
+      "targets": [
+        ["linkText=В Honda не считают, что дверь в Формулу 1 закрыта", "linkText"],
+        ["css=.b-news-list__item--with-image:nth-child(1) .b-news-list__title", "css:finder"],
+        ["xpath=//a[contains(text(),'В Honda не считают, что дверь в Формулу 1 закрыта')]", "xpath:link"],
+        ["xpath=//div[@id='cms-block-62d2c21694a083.46370078']/div/div/ul/li/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news/f1-161963.html')]", "xpath:href"],
+        ["xpath=//li/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'В Honda не считают, что дверь в Формулу 1 закрыта')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26d8e58d-4415-47af-9766-c9e14d5b4af4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Дарувала вернётся за руль McLaren MCL35M в Портимао",
+      "targets": [
+        ["linkText=Дарувала вернётся за руль McLaren MCL35M в Портимао", "linkText"],
+        ["css=.b-news-list__item--with-image:nth-child(2) .b-news-list__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Дарувала вернётся за руль McLaren MCL35M в Портимао')]", "xpath:link"],
+        ["xpath=//div[@id='cms-block-62d2c21694a083.46370078']/div/div/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news/f1-161962.html')]", "xpath:href"],
+        ["xpath=//li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Дарувала вернётся за руль McLaren MCL35M в Портимао')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76e9a167-f05e-4743-9d02-5a4c9a288321",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88369e53-b9bf-46bb-b129-ceace30e7dd2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bf5be0ed-ea66-478e-9476-5383dcf50919",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ce1aba6e-4aad-432a-a2cd-92ef4dff1368"]
+  }],
+  "urls": ["https://www.f1news.ru/"],
+  "plugins": []
+}
